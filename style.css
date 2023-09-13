@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #f9f7f7;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content {
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  margin: 1rem;
+  width: 650px;
+  padding: 1rem 1rem;
+  text-align: start;
+  background-color: #fcfcfc;
+}
+
+#total-expenses {
+  border: none;
+  border-radius: 5px;
+  width: 650px;
+  padding: 1rem 1rem;
+  text-align: center;
+  margin: 1rem;
+  background-color: #018786;
+  color: white;
+}
+
+.all-expenses {
+  border: none;
+  border-radius: 5px;
+  width: 650px;
+  padding: 1rem 1rem;
+  margin: 1rem;
+  background-color: #fcfcfc;
+}
+
+#name,
+#number {
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #ccc;
+}
+
+li {
+  list-style: none;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 5fr 5fr 1fr 1fr;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  outline: none;
+  padding: 5px;
+}
+
+input,
+button,
+h3 {
+  margin: 5px;
+}
+
+h4 {
+  margin-bottom: 1rem;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+
+#btn {
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background: #018786;
+  padding: 12px;
+  width: 12%;
+  color: white;
+  margin-top: 1rem;
+}
+
+#form-id {
+  display: grid;
+}
+
+p {
+  margin: 0.5rem;
+}
+
+#text {
+  font-weight: bold;
+}
+
+button {
+  border: none;
+  outline: none;
+  color: #018786;
+  background: none;
+  cursor: pointer;
+}
